@@ -1,0 +1,19 @@
+/*
+* GLOBAL
+****************************************
+****************************************
+*/
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  font-family: 'Brandon_Text', sans-serif;
+  font-size: 18px;
+  overflow-x: hidden;
+}
+
+.profile-picture {
+  border-radius: 200px;
+  height: 300px;
+}
