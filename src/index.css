@@ -8,5 +8,5 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Brandon_Text', sans-serif;
-  background-image: url('./assets/images/background.svg');
+  background: #E6E7E6;
 }

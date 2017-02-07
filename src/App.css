@@ -7,13 +7,48 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 20px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
   font-family: 'Brandon_Text', sans-serif;
   font-size: 18px;
-  overflow-x: hidden;
+  background: #fff;
 }
 
 .profile-picture {
-  border-radius: 200px;
+  /*border-radius: 200px;*/
   height: 300px;
+}
+
+/* Dark Grey 454C4A*/
+/* Light Grey E6E7E6*/
+/* White FFF*/
+/* Green 65E2B0 */
+/* Black 07100D */
+
+.bio-container {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  /*padding: 20px;*/
+  background-image: url('./assets/images/background.svg');
+}
+
+.logo {
+  height: 24px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.name {
+  font-size: 32px;
+  font-weight: 300;
+  color: #454C4A;
 }
