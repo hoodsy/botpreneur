@@ -5,13 +5,10 @@
 */
 .app-container {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  width: 500px;
-  margin-left: auto;
-  margin-right: auto;
-  font-family: 'Brandon_Text', sans-serif;
-  font-size: 18px;
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
   background: #fff;
 }
 
@@ -23,7 +20,7 @@
 /* Dark Grey 454C4A*/
 /* Light Grey E6E7E6*/
 /* White FFF*/
-/* Green 65E2B0 */
+/* Green 5FE3AF */
 /* Black 07100D */
 
 .bio-container {
@@ -32,8 +29,8 @@
   align-items: center;
   flex-direction: column;
   width: 100%;
+  height: 100%;
   /*padding: 20px;*/
-  background-image: url('./assets/images/background.svg');
 }
 
 .logo {
@@ -44,11 +41,81 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 100%;
+  width: 100%;
   padding: 0 10px;
+}
+
+.column-left {
+  flex: 2;
+}
+
+.column-right {
+  flex: 1;
 }
 
 .name {
   font-size: 32px;
   font-weight: 300;
   color: #454C4A;
+}
+
+/*
+ * BOT SECTION
+ * ===================================
+ * ===================================
+ */
+
+.portfolio-container {
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-image: url('./assets/images/background.svg');
+}
+
+.portfolio-header {
+  color: #454C4A;
+  text-align: center;
+}
+
+.bot-item-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.bot-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.bot-image {
+  width: 100px;
+}
+
+.bot-name {
+  margin: 5px 0;
+}
+
+.bot-type {
+  color: #454C4A;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600px;
+}
+
+/*
+ * PROFILES SECTION
+ * ===================================
+ * ===================================
+ */
+
+.profiles-container {
+  flex: 1;
+  width: 100%;
+  background: blue;
 }
